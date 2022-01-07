@@ -17,7 +17,7 @@ This is the implementation of a **TCP (Transmission Control Protocol)** in moder
 
 The overall design is illustrated in the picture below. The details and key points will be elaborated in the next sections. 
 
-![](pic/overall_design.png | width=200)
+<img src="pic/overall_design.png" alt="drawing" width="600"/>
 
 (picture source: https://cs144.github.io)
 
