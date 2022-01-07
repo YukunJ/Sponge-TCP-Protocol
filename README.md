@@ -48,7 +48,7 @@ As can be seen from the design picture above, the Sponge TCP Protocol is divided
 <img src="pic/tcp_performance.png" alt="drawing" width="800" class="center"/>
 
 
-We can reach around **0.1 Gbits/s** data transfer speed using our **Sponge** TCP Protocol, which is a good performance. We stop once the correct implementation is reached, although more optimized implementation is highly plausible.
+We can reach around **0.1 Gbits/s** data transfer speed using our **Sponge** TCP Protocol, which is a good performance. We stop here once the correct implementation is reached, although more optimized implementation is highly plausible.
 
 ---
 
