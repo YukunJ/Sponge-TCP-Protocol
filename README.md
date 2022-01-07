@@ -39,13 +39,14 @@ As can be seen from the design picture above, the Sponge TCP Protocol is divided
 
 - **TCPConnection**: This is the ultimate wrapper module for our TCP protocol. Each TCP Connection will has **one receiver** and **one sender** respectively. Most of the heavy lifting jobs are already done and delegated in the implementations of receiver and sender. This module is mostly concerned with subtle state transition in the TCP Connection, i.e. starting a connection(**3-way handshaking**), finishing a connection(**4-way handshake**), error shutdown(RST flag set), etc. The state transition follows a finite state machine as pictured below:
 
-![avatar](pic/tcp_FSM.png)
+<img src="pic/pic/tcp_FSM.png" alt="drawing" width="800" class="center"/>
 
 ---
 
 #### Performance
 
-![avatar](pic/tcp_performance.png)
+<img src="pic/tcp_performance.png" alt="drawing" width="800" class="center"/>
+
 
 We can reach around **0.1 Gbits/s** data transfer speed using our **Sponge** TCP Protocol, which is a good performance. We stop once the correct implementation is reached, although more optimized implementation is highly plausible.
 
